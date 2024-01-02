@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-color: #0b7ed1;
+}
+.container{
+    width: 40rem;
+    border: 1px solid #fff;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.count{
+    font-size: 4em;
+    padding: 0 1rem;
+    text-align: center;
+}
+input[type="text"]{
+    display: block;
+    font-size: 16px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 1rem;
+    width: 100%;
+    outline: none;
+}
